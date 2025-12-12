@@ -16,8 +16,14 @@
     <p>This is the MacFinder project site. The repository contains a Python tool to look up MacBook specs (2020+), examples, and documentation.</p>
 
     <section class="links">
-      <p><a href="https://github.com/anastasiadisfoivos-hub/anastasiadisfoivos-hub.github.io" target="_blank" rel="noopener">View repository on GitHub</a></p>
-      <p><a href="https://anastasiadisfoivos-hub.github.io" target="_blank" rel="noopener">Open this Pages site (refresh after changes)</a></p>
+      <p>
+        <a href="https://github.com/anastasiadisfoivos-hub/anastasiadisfoivos-hub.github.io" target="_blank" rel="noopener">
+          View repository on GitHub
+        </a>
+      </p>
+      <p>
+        <a href="#" id="open-pages" rel="noopener">Open this Pages site (refresh after changes)</a>
+      </p>
     </section>
 
     <section class="howto">
@@ -32,5 +38,13 @@
   <footer>
     <small>Published with GitHub Pages — anastasiadisfoivos-hub</small>
   </footer>
+
+  <script>
+    // Force "Open this Pages site" to open in a new tab
+    document.getElementById('open-pages').addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent default behavior
+      window.open('https://anastasiadisfoivos-hub.github.io', '_blank'); // Open in new tab
+    });
+  </script>
 </body>
 </html>
