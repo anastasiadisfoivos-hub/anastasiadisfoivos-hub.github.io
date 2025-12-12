@@ -6,7 +6,7 @@
   <title>MacFinder — anastasiadisfoivos-hub</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    /* Optional: style for the button link */
+    /* Optional: make links look like buttons */
     .button-link {
       display: inline-block;
       padding: 10px 15px;
@@ -15,6 +15,7 @@
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
+      margin: 5px 0;
     }
 
     .button-link:hover {
@@ -40,7 +41,8 @@
         </a>
       </p>
       <p>
-        <a href="https://anastasiadisfoivos-hub.github.io" target="_blank" rel="noopener noreferrer" class="button-link">
+        <!-- Foolproof link opening in the same tab -->
+        <a href="https://anastasiadisfoivos-hub.github.io" rel="noopener noreferrer" class="button-link">
           Open this Pages site
         </a>
       </p>
@@ -49,8 +51,8 @@
     <section class="howto">
       <h2>How to use this page</h2>
       <ol>
-        <li>Click the GitHub link above to view source and examples (opens in a new tab).</li>
-        <li>If a link appears not to work, try opening it in a new tab (right-click → Open link in new tab) or check your popup blocker.</li>
+        <li>Click the GitHub link above to view source and examples.</li>
+        <li>If a link appears not to work in a new tab, it will always work in the same tab using this version.</li>
       </ol>
     </section>
   </main>
