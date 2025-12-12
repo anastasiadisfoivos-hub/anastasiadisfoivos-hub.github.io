@@ -17,12 +17,15 @@
 
     <section class="links">
       <p>
-        <a href="https://github.com/anastasiadisfoivos-hub/anastasiadisfoivos-hub.github.io" target="_blank" rel="noopener">
+        <a href="https://github.com/anastasiadisfoivos-hub/anastasiadisfoivos-hub.github.io" target="_blank" rel="noopener noreferrer">
           View repository on GitHub
         </a>
       </p>
       <p>
-        <a href="#" id="open-pages" rel="noopener">Open this Pages site (refresh after changes)</a>
+        <!-- Reliable link without JavaScript -->
+        <a href="https://anastasiadisfoivos-hub.github.io" target="_blank" rel="noopener noreferrer">
+          Open this Pages site (refresh after changes)
+        </a>
       </p>
     </section>
 
@@ -38,13 +41,5 @@
   <footer>
     <small>Published with GitHub Pages — anastasiadisfoivos-hub</small>
   </footer>
-
-  <script>
-    // Force the "Open this Pages site" link to always open in a new tab
-    document.getElementById('open-pages').addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent default link behavior
-      window.open('https://anastasiadisfoivos-hub.github.io', '_blank'); // Open in a new tab
-    });
-  </script>
 </body>
 </html>
